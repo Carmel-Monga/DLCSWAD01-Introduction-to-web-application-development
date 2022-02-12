@@ -1,0 +1,105 @@
+body {
+    font-family: "Open Sans" , sans-serif;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', 'Sans serif';
+    margin: 0;
+    Background-color: rgb(44, 41, 38);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#main-header {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* centers items in the center of the header*/
+    background-color: rgb(29, 26, 24);
+    padding: 0 5%;
+}
+
+#logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(238, 164, 80);
+    text-transform: uppercase;
+}
+
+#main-header ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin:0;
+}
+
+#main-header li{
+    padding: 1rem;
+}
+
+#main-header nav a {
+    color: rgb(185, 131, 31);
+    font-size: 1.25rem;
+}
+
+#main-header nav a:hover{
+    color: rgb(228, 163, 44);
+}
+
+main h1{
+    text-align: center;
+    color: rgb(238, 164, 80);
+    font-size: 3rem;
+}
+
+#latest-products {
+    width: 80%;
+    margin: 2rem auto;
+  
+}
+
+#latest-products ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+.food-item {
+    background-color: rgb(228, 206, 182);
+    border-radius: 6px;
+    overflow:hidden;
+
+}
+
+.food-item:hover{
+    box-shadow: 1px 1px 8px rgba(100,100,100, 3.9);
+}
+.food-item img{
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.food-item-content {
+    text-align: center;
+    padding:16px;
+}
+
+.btn {
+    background-color: rgb(228, 157,44);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+
+}
+
+.btn:hover{
+    background-color: rgb(221, 134, 34);
+}
