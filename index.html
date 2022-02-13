@@ -4,18 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebFood</title>
+    <title>Carmelo's</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
   </head>
+
   <body>
+     <!-- HEADER OFTHE PAGE --> 
     <header id="main-header">
-      <a href="index.html" id="logo">WebFood</a>
+      <a href="index.html" id="logo">Carmelo's</a>
       <nav>
         <ul>
           <li>
@@ -26,7 +31,40 @@
           </li>
         </ul>
       </nav>
+      <a href="#side-drawer" class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+        
+      </a>
     </header>
+     <!-- END OF HEADER OFTHE PAGE --> 
+
+    <!-- MENU BUTTON -->
+    <aside id="side-drawer">
+      <!-- Header of side drawer -->
+      <header>
+        <a href="#" class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </header>
+      <!-- END -->
+      <!-- MENU LIST -->
+      <nav>
+        <ul>
+          <li>
+            <a href="">Browse Meals</a>
+          </li>
+          <li>
+            <a href="">My Orders</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- END OF MENU LIST -->
+    </aside>
+    <!-- MAIN SECTION OF THE PAGE --> 
     <main>
       <h1>Browse Our Delicious Meals</h1>
       <section id="latest-products">
@@ -52,5 +90,6 @@
         </ul>
       </section>
     </main>
+     <!-- END OF MAIN SECTION OF THE PAGE --> 
   </body>
 </html>
